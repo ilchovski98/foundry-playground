@@ -51,6 +51,12 @@ $ anvil
 $ forge script script/Counter.s.sol:CounterScript --rpc-url <your_rpc_url> --private-key <your_private_key>
 ```
 
+or
+
+```shell
+$ forge create <name_of_contract> --private-key <your_private_key> --rpc-url <rpc_url if local leave blank>
+```
+
 ### Cast
 
 ```shell
