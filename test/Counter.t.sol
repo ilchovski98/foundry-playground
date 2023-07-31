@@ -21,4 +21,10 @@ contract CounterTest is Test {
         counter.setNumber(x);
         assertEq(counter.number(), x);
     }
+
+    function testDoubleIncrement() public {
+        counter.increment();
+        counter.increment();
+        assertEq(counter.number(), 2);
+    }
 }
